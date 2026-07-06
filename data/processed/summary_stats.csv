@@ -1,0 +1,7 @@
+Ticker,TotalReturnPct,CAGRPct,AnnualizedVolatilityPct,MaxDrawdownPct,PctDaysInUptrendRegime,GoldenCrossCount,DeathCrossCount
+GOOGL,309.76,29.45,31.19,-44.32,69.27,3,2
+AAPL,117.71,15.3,27.67,-33.43,68.34,5,4
+META,109.19,14.46,43.14,-76.74,60.02,3,3
+MSFT,69.31,10.12,26.6,-37.56,61.04,5,5
+AMZN,50.72,7.8,34.82,-56.15,63.75,4,3
+NFLX,41.11,6.5,42.82,-75.95,70.88,2,2

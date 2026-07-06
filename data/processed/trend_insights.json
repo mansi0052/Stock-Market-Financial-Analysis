@@ -1,0 +1,86 @@
+{
+  "insight_1_uptrend_persistence": {
+    "description": "All 6 companies spent the majority of trading days in a confirmed MA50>MA200 uptrend regime over the period, consistent with a structural multi-year bull trend across big tech rather than isolated rallies.",
+    "pct_days_in_uptrend_by_ticker": {
+      "NFLX": 70.88,
+      "GOOGL": 69.27,
+      "AAPL": 68.34,
+      "AMZN": 63.75,
+      "MSFT": 61.04,
+      "META": 60.02
+    }
+  },
+  "insight_2_risk_return_tradeoff": {
+    "description": "Higher-growth names carried higher annualized volatility and deeper max drawdowns, while steadier compounders (typically MSFT/AAPL) delivered smoother, lower-drawdown growth \u2014 a consistent risk-return tradeoff across the group.",
+    "annualized_volatility_by_ticker": {
+      "META": 43.14,
+      "NFLX": 42.82,
+      "AMZN": 34.82,
+      "GOOGL": 31.19,
+      "AAPL": 27.67,
+      "MSFT": 26.6
+    },
+    "max_drawdown_by_ticker": {
+      "GOOGL": -44.32,
+      "AAPL": -33.43,
+      "META": -76.74,
+      "MSFT": -37.56,
+      "AMZN": -56.15,
+      "NFLX": -75.95
+    }
+  },
+  "insight_3_sector_comovement": {
+    "description": "Daily returns across all 6 stocks are highly positively correlated, confirming they move together as a sector on the same macro/tech-sentiment factor rather than independently \u2014 a key diversification insight for investors.",
+    "average_pairwise_correlation": 0.515,
+    "correlation_matrix": {
+      "AAPL": {
+        "AAPL": 1.0,
+        "AMZN": 0.543,
+        "GOOGL": 0.548,
+        "META": 0.473,
+        "MSFT": 0.583,
+        "NFLX": 0.38
+      },
+      "AMZN": {
+        "AAPL": 0.543,
+        "AMZN": 1.0,
+        "GOOGL": 0.613,
+        "META": 0.598,
+        "MSFT": 0.621,
+        "NFLX": 0.466
+      },
+      "GOOGL": {
+        "AAPL": 0.548,
+        "AMZN": 0.613,
+        "GOOGL": 1.0,
+        "META": 0.543,
+        "MSFT": 0.579,
+        "NFLX": 0.372
+      },
+      "META": {
+        "AAPL": 0.473,
+        "AMZN": 0.598,
+        "GOOGL": 0.543,
+        "META": 1.0,
+        "MSFT": 0.549,
+        "NFLX": 0.432
+      },
+      "MSFT": {
+        "AAPL": 0.583,
+        "AMZN": 0.621,
+        "GOOGL": 0.579,
+        "META": 0.549,
+        "MSFT": 1.0,
+        "NFLX": 0.426
+      },
+      "NFLX": {
+        "AAPL": 0.38,
+        "AMZN": 0.466,
+        "GOOGL": 0.372,
+        "META": 0.432,
+        "MSFT": 0.426,
+        "NFLX": 1.0
+      }
+    }
+  }
+}
