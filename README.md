@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Stock Market Financial Analysis — Project Build
 
 This project reproduces, end-to-end, every claim in the CV bullet below —
@@ -7,6 +9,7 @@ interviewer.
 > **Stock Market Financial Analysis | Self Project [Jun'26]**
 > Performed time-series analysis of historical stock market data to identify
 > trends, technical indicators, deep investment insights
+>
 > - Evaluated price and volume data for 6 major tech companies using Pandas,
 >   computing 50-day/200-day moving averages and percentage changes
 > - Built 10+ Tableau visualizations tracking stock performance, trend
@@ -93,3 +96,4 @@ Combine into one dashboard with a Ticker filter action — that's your
 
 (Exact percentages will change once you swap in real data — rerun
 `analysis.py` and the numbers in the dashboard/README refresh accordingly.)
+=======
