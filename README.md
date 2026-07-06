@@ -28,6 +28,17 @@ An additional 11-chart Plotly dashboard with a ticker selector for
 per-company deep dives. Download this repo and open the file directly in
 any browser (no hosting needed — it's fully self-contained).
 
+## Screenshots
+
+**Normalized growth comparison across all 6 companies:**
+![Normalized Growth](screenshots/NormalizedGrowth.png)
+
+**Price with MA50/MA200 crossover signals:**
+![Price with MA Crossovers](screenshots/PricewithMACrossovers.png)
+
+**Distribution of daily % price changes:**
+![Return Distribution](screenshots/ReturnDistribution.png)
+
 ## Project structure
 
 ```
