@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Stock Market Financial Analysis — Project Build
 
 This project reproduces, end-to-end, every claim in the CV bullet below —
@@ -16,6 +14,19 @@ interviewer.
 >   analysis and moving-average crossover signals clearly across companies
 > - Identified 3 consistent long-term trends across FAANG stocks, surfacing
 >   actionable fresh comparative insights for investment decision-making
+
+## Live Links
+
+🔗 **[Tableau Public Story — 10 charts](https://public.tableau.com/app/profile/mansi.1724/viz/StockMarketFinancialAnalysis-6TechCompanies/Story1?publish=yes)**
+Click-through story covering normalized growth comparison, price with
+MA50/MA200 crossover signals, volume, drawdown, rolling volatility, and
+cross-company comparisons (volatility, returns, drawdown, correlation,
+return distribution).
+
+📊 **Interactive HTML Dashboard** — `charts/dashboard.html`
+An additional 11-chart Plotly dashboard with a ticker selector for
+per-company deep dives. Download this repo and open the file directly in
+any browser (no hosting needed — it's fully self-contained).
 
 ## Project structure
 
@@ -41,9 +52,9 @@ project/
 
 ## How to plug in real data (recommended before you show this to anyone)
 
-The pipeline currently runs on **realistic simulated data** (correlated
-geometric Brownian motion, calibrated per-company) so you have a fully
-working, testable project today. To make it real:
+The pipeline can run on **realistic simulated data** (correlated geometric
+Brownian motion, calibrated per-company) so you have a fully working,
+testable project even offline. To use real data instead:
 
 ```bash
 pip install yfinance pandas
@@ -78,8 +89,9 @@ Tableau directly to this CSV and build:
 10. Bar chart: `MaxDrawdownPct` by Ticker
 11. Histogram: `DailyPctChange`, colored/split by Ticker
 
-Combine into one dashboard with a Ticker filter action — that's your
-"10+ Tableau visualizations ... clearly across companies."
+Combine into one dashboard/story with a Ticker filter action — that's your
+"10+ Tableau visualizations ... clearly across companies." (Already done —
+see the live link above.)
 
 ## The 3 long-term trends (see `trend_insights.json` for full numbers)
 
@@ -93,7 +105,3 @@ Combine into one dashboard with a Ticker filter action — that's your
    positively correlated, confirming they move together on a shared
    macro/tech-sentiment factor rather than independently — relevant for
    anyone using these stocks for diversification.
-
-(Exact percentages will change once you swap in real data — rerun
-`analysis.py` and the numbers in the dashboard/README refresh accordingly.)
-=======
